@@ -60,10 +60,6 @@ class SurviveAPI(remote.Service):
         return self._doInventory()
 
     def _doInventory(self, save_request=None):
-        #flint = 1
-        #grass = 2
-        #boulder = 5
-        #See if you can build an ierated inventory list
         #inven= Inventory(flint = items.get("flint"), grass=items.get("grass"), boulder=items.get("boulder"), hay = items.get("hay"))
         inven = loadInventory()
         print "Dude this is great!"
